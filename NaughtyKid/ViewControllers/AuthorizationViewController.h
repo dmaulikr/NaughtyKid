@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol Vprotocol <NSObject>
+@protocol AuthorizationProtocol <NSObject>
 
 - (void) userDidLogin;
 
@@ -16,7 +16,7 @@
 
 @interface AuthorizationViewController : UIViewController
 
-+ (instancetype) controllerWithDelegate:(id<Vprotocol>)delegate;
++ (instancetype) controllerWithDelegate:(id<AuthorizationProtocol>)delegate;
 
 @end
 

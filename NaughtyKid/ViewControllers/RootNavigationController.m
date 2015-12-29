@@ -13,7 +13,7 @@
 #import "AuthorizationViewController.h"
 #import "WatchdogViewController.h"
 
-@interface RootNavigationController () <Vprotocol>
+@interface RootNavigationController () <AuthorizationProtocol>
 
 @end
 

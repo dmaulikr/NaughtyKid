@@ -17,13 +17,13 @@
 @interface AuthorizationViewController () <NestWebViewAuthControllerDelegate>
 
 @property (nonatomic, strong) AFHTTPSessionManager* manager;
-@property (nonatomic, weak) id<Vprotocol> delegate;
+@property (nonatomic, weak) id<AuthorizationProtocol> delegate;
 
 @end
 
 @implementation AuthorizationViewController
 
-+ (instancetype)controllerWithDelegate:(id<Vprotocol>)delegate
++ (instancetype)controllerWithDelegate:(id<AuthorizationProtocol>)delegate
 {
     UIStoryboard* s = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     AuthorizationViewController* controller = [s instantiateViewControllerWithIdentifier:@"AuthorizationViewController"];
