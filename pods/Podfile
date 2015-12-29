@@ -1,0 +1,8 @@
+workspace '../NaughtyKid.xcworkspace'
+xcodeproj ‘../NaughtyKid.xcodeproj'
+
+inhibit_all_warnings!
+
+pod 'Firebase', '1.1.10'
+pod 'Mantle'
+pod 'AFNetworking'
