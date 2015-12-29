@@ -1,5 +1,5 @@
 workspace '../NaughtyKid.xcworkspace'
-xcodeproj ‘../NaughtyKid.xcodeproj'
+xcodeproj '../NaughtyKid.xcodeproj'
 
 inhibit_all_warnings!
 
