@@ -12,3 +12,10 @@ pod 'Mantle'
 pod 'AFNetworking'
 
 Use "pod install" before building project
+
+
+Demo video can be watched here:
+https://drive.google.com/file/d/0B8a_7rrVspDzeGExVjBaR1ZVVDQ/view?usp=sharing
+
+Code walkthrough video can be watched here:
+https://drive.google.com/file/d/0B8a_7rrVspDzT1RQVHAzOU01Y1U/view?usp=sharing
